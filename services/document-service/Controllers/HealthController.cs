@@ -4,11 +4,11 @@ namespace DocumentService.Controllers;
 
 [ApiController]
 [Route("api/[Controller]")]
-public class DocumentController : ControllerBase
+public class HealthController : ControllerBase
 {
     [HttpGet]
-    public IActionResult GetDocuments()
+    public IActionResult Get()
     {
-        return Ok("Document endpoint placeholder");
+        return Ok("Document Service is running");
     }
 }
