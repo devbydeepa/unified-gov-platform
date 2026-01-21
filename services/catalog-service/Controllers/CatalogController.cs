@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CatalogService.Controllers;
 
 [ApiController]
-[Route("api/catalog")]
+[Route("api/[Controller]")]
 public class CatalogController : ControllerBase
 {
     [HttpGet]
