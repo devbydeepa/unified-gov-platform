@@ -1,6 +1,9 @@
-@identity_service_HostAddress = http://localhost:<PORT>
+@baseUrl = http://localhost:PORT
 
-GET  {{identity_service_HostAddress}}/api/health
+GET {{baseUrl}}/api/health
 Accept: application/json
 
 ###
+
+GET {{baseUrl}}/api/auth/placeholder
+Accept: application/json

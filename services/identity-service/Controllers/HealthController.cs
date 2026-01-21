@@ -3,9 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace IdentityService.Controllers;
 
 [ApiController]
-[Route("api/health")]
+[Route("api/[Controller]")]
 public class HealthController : ControllerBase
 {
     [HttpGet]
-    public IActionResult Get() => Ok("Identity Service is running");
+    public IActionResult Get()
+    {
+        return Ok("Identity Service is running");
+    }
 }
