@@ -1,6 +1,6 @@
-@identity_service_HostAddress = http://localhost:5080
+@identity_service_HostAddress = http://localhost:<PORT>
 
-GET {{identity_service_HostAddress}}/weatherforecast/
+GET  {{identity_service_HostAddress}}/api/health
 Accept: application/json
 
 ###
