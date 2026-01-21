@@ -4,11 +4,11 @@ namespace AuditService.Controllers;
 
 [ApiController]
 [Route("api/[Controller]")]
-public class AuditController : ControllerBase
+public class HealthController : ControllerBase
 {
     [HttpGet]
-    public IActionResult GetAuditLogs()
+    public IActionResult Get()
     {
-        return Ok("Audit endpoint placeholder");
+        return Ok("Audit Service is running");
     }
 }

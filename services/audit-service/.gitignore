@@ -1,0 +1,27 @@
+# Build folders
+bin/
+obj/
+
+# Visual Studio / VS Code files
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+
+# Publish folder
+publish/
+
+# Logs
+*.log
+
+# Optional: database files
+*.mdf
+*.ldf
+
+# Optional: Rider IDE
+.idea/
+
+# Node / frontend (if you have React inside same repo)
+node_modules/
