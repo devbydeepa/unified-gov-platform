@@ -1,9 +1,15 @@
 @baseUrl = http://localhost:PORT
 
 GET {{baseUrl}}/api/health
-Accept: application/json
 
 ###
 
-GET {{baseUrl}}/api/workflow
-Accept: application/json
+GET {{baseUrl}}/api/workflow/applications
+
+###
+
+POST {{baseUrl}}/api/workflow/applications
+
+###
+
+PUT {{baseUrl}}/api/workflow/applications/1/status

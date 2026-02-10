@@ -1,9 +1,11 @@
 @baseUrl = http://localhost:PORT
 
 GET {{baseUrl}}/api/health
-Accept: application/json
 
 ###
 
 GET {{baseUrl}}/api/notification
-Accept: application/json
+
+###
+
+POST {{baseUrl}}/api/notification/send

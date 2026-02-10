@@ -1,9 +1,15 @@
-@baseUrl = http://localhost:PORT
+@baseUrl = http://localhost:5078
 
 GET {{baseUrl}}/api/health
-Accept: application/json
 
 ###
 
-GET {{baseUrl}}/api/document
-Accept: application/json
+GET {{baseUrl}}/api/documents
+
+###
+
+GET {{baseUrl}}/api/documents/1
+
+###
+
+POST {{baseUrl}}/api/documents/upload
